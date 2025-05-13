@@ -1,0 +1,102 @@
+body{
+    color:aqua;
+    background-color: rgba(6, 2, 66, 0.822);
+    margin:10;
+}
+header {
+    top:0;
+    left:0;
+    width:100%;
+    color:aqua;
+    margin: 10px;
+    text-align: center;
+    height:55px;
+    background-color: rgb(0, 86, 143);
+    font-size: 24px;
+}
+footer {
+    background-color: blue;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 86, 143);;
+}
+main {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    flex-grow: 1;
+}
+.h1,h2,h3,h4,h5,h6{
+    font-size: 15px;
+}
+.arti{
+    color:aqua;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    color:rgb(2, 198, 212);
+    font-size: 20px;
+    position: center;
+}
+a:visited{
+    color:purple;
+}
+a:active{
+    color:blue;
+    background-color: red;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-decoration: none;
+    font-size: 30px;
+}
+.mg{
+    height:240px;
+
+}
+.con{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.iw {
+    position: relative;
+    max-width: 100%;
+}
+.tt {
+    position: absolute; 
+    bottom:60px;
+    left: 10%;
+    color: rgb(252, 206, 2);
+    font-size: 40px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 9);
+    font-size: 10px;
+}
+.Numery{
+    color:rgba(181, 194, 0, 0.651);
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #00a2fff3;
+}
+tr:nth-child(even) {
+    background-color: #006eff71;
+}
